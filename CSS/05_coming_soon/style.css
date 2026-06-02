@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap');
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    background: linear-gradient(135deg, #8a2be2,#4169e1);
+}
+ 
+.container{
+    background: linear-gradient(135deg, #8a2be2,#4169e1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.content{
+    text-align: center;
+    background-color:rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 400px;
+}
+
+h1{
+    color: #333;
+    margin-bottom: 20px;
+    font-family: "Sixtyfour", sans-serif;
+}
+ 
+p{
+    color: #666;
+    margin-bottom: 20px;
+    font-family: "Libre Baskerville", serif;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+ 
+input[type="email"]{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+button{
+    padding: 5px;
+    background-color: #9377ce;
+    color: rgb(5, 15, 63);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    box-shadow: 0 8px 18px rgba(88, 41, 243, 0.59);
+    transition:  background-color 0.3s ease-in-out;
+}
+
+button:hover{
+    background-color: #5d6ce1;
+    box-shadow: 0 8px 28px rgba(56, 13, 213, 0.59); ;
+}

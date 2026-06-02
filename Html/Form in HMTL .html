@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/download.png">
+    <title>FORM in HTML</title>
+</head>
+<body>
+     <header><h1><pre>                            FORM IN HTML   </pre></h1></header>
+
+     <main>
+                  <!-- Form in HTML
+            Forms are used to collect data from the user 
+            Eg- sign up/login/help requests/contact me
+        <form>
+            form content
+        </form> -->
+
+          <!-- 1 : Action in Form 
+          it used to define what action needs to be performed when a form is submitted 
+          <form action="/action.php"> -->
+        
+                <!-- Text and Password 
+        <input type="text" placeholder="Enter your name">
+        <input type="password" placeholder="Enter your password"> -->
+
+        <form action="/action.php">
+
+            <input type="text" placeholder="Enter your Name"><br>
+            <input type="password" placeholder="Enter your password"><br>
+
+               <!-- Label help when we click on text then also its will show tick   
+               For tick process we use format 
+               <input type="radio" value="name of opton" name="format name">name of option
+               FOR BOTH WE USE 
+               <label for="any no">
+                <input type="radio" value="name of opton" name="format name" id="any no">
+               </label> -->
+
+               <label for="23">
+                 <input type="radio" value="12th pass" name="passing class" id="23">12th pass
+               </label><br>
+                <label for="13">
+                 <input type="radio" value="10th pass" name="passing class" id="13">10th pass
+               </label><br>
+               
+                        <!-- class and id 
+                <div id="id1" class="group1"></div>
+                <div id="id2" class="group1"></div>
+                        checkbox for multiple opton selection 
+                <label for="any no">
+                <input type="checkbox" value="name of opton" name="format name" id="any no">name of option 
+               </label>       -->
+                <br>
+                <label for="22">
+                    <input type="checkbox" value="Maths" name="subject" id="22">Maths
+                </label><br>
+                 <label for="2">
+                    <input type="checkbox" value="Physics" name="subject" id="2">Physics
+                </label><br>
+                 <label for="20">
+                    <input type="checkbox" value="Chemistry" name="subject" id="20">Chemistry
+                </label><br>
+                 <label for="26">
+                    <input type="checkbox" value="Biology" name="subject" id="26">Biology
+                </label><br>
+                <!-- FEEDBACK LIST -->
+
+            <textarea name="FEEDBACK" id="11"placeholder="pleasegive your feedback">Feedback</textarea>
+         <br>
+            <!-- selection of any think like city school name etc 
+                  <select name="city" id="city">
+                     <option value="delhi">Delhi </option>
+                     <option value="Mumbai">Mumbai </option>
+                     <option value="banglore">banglore</option>
+                  </select> -->
+
+                <select name="city" id="city">
+                     <option value="delhi">Delhi </option>
+                     <option value="Mumbai">Mumbai </option>
+                     <option value="banglore">banglore</option>
+                     <option value="Uttarpradesh">Uttarpradesh</option>
+                  </select> <br>
+                
+            <input type="submit" value="submit">
+        </form>
+         
+            <!-- <iframe src="link of app or any video"> -->
+              <iframe width="315" height="315" src="https://www.youtube.com/embed/HcOc7P5BMi4?si=hOJanhMZ48Zv53RZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <br>
+               <!-- <video src="our downloded video" controls loops > MY video </video> -->
+               <iframe width="315" height="315" src="https://www.wikipedia.org/"></iframe>
+                
+
+
+             </main>
+</body>
+</html>
